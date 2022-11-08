@@ -11,7 +11,7 @@
     <td>Tampilan</td>
   </tr>
   <tr align="center">
-    <td><img src="https://user-images.githubusercontent.com/95725937/200475613-3ecfe8a9-2846-4d9a-867c-db446050591a.jpg" width=40% height=40%></td>
+    <td><img src="https://user-images.githubusercontent.com/95725937/200475613-3ecfe8a9-2846-4d9a-867c-db446050591a.jpg" width=50% height=50%></td>
   </tr>
  </table>
 
