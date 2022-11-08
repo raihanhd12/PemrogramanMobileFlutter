@@ -8,10 +8,10 @@
 
 <table>
   <tr align="center">
-    <td>Tampilan Pertama</td>
+    <td>Tampilan</td>
   </tr>
   <tr align="center">
-    <td><img src="https://user-images.githubusercontent.com/95725937/200475493-94f690e6-2a8d-4d50-95ca-a36959306019.jpg" width=70% height=70%></td>
+    <td><img src="https://user-images.githubusercontent.com/95725937/200475493-94f690e6-2a8d-4d50-95ca-a36959306019.jpg" width=60% height=60%></td>
   </tr>
  </table>
 
