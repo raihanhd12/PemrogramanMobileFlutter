@@ -1,16 +1,17 @@
-# flutter_stateless_2
+### **Nama**      : Raihan Hidayatullah Djunaedi
+### **Kelas**     : TI -3A
+### **NIM**       : 2041720108
+### **No Absen**  : 24
+# 
 
-A new Flutter project.
+# Screenshot App
 
-## Getting Started
+<table>
+  <tr align="center">
+    <td>Tampilan</td>
+  </tr>
+  <tr align="center">
+    <td><img src="https://user-images.githubusercontent.com/95725937/200475613-3ecfe8a9-2846-4d9a-867c-db446050591a.jpg" width=40% height=40%></td>
+  </tr>
+ </table>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
