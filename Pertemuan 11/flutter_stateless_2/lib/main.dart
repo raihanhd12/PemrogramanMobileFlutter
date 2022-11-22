@@ -36,6 +36,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final _controllerCelcius = TextEditingController();
+  final _sliderController = TextEditingController();
   //variabel berubah
   double _inputCelcius = 0;
   double _result = 0;
@@ -52,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   konverterSuhu() {
     setState(() {
-      if (_controllerCelcius.text.isNotEmpty) {
-        _inputCelcius = double.parse(_controllerCelcius.text);
+      if (_sliderController.text.isNotEmpty) {
+        _inputCelcius = double.parse(_sliderController.text);
         if (selectedSuhu == "Kelvin") {
           _result = _inputCelcius + 273;
         }
@@ -83,24 +84,60 @@ class _MyHomePageState extends State<MyHomePage> {
         margin: const EdgeInsets.all(8),
         child: Column(
           children: [
+            const Text('Slider for integers',
+            style: TextStyle(
+              fontSize: 15,
+              fontStyle: FontStyle.italic
+              ),
+            ),
+            Text(_inputCelcius.toString(),
+            style: const TextStyle(
+              color: Colors.redAccent
+            ),
+            ),
+            Slider(
+              value: _inputCelcius.toDouble(),
+              min: 0,
+              max: 100,
+              divisions: 10,
+              label: _inputCelcius.round().toString(),
+              thumbColor: Colors.blueAccent,
+              onChanged: (double value) {
+                setState(() {
+                  _inputCelcius = value;
+                  _sliderController.text = _inputCelcius.toString();
+                });
+              },
+              onChangeEnd: (double value) {
+                setState(() {
+                  _inputCelcius = value;
+                  _sliderController.text = _inputCelcius.toString();
+                  konverterSuhu();
+                });
+                
+              },
+            ),
             TextFormField(
               decoration: const InputDecoration(
-                hintText: ("Masukkan Suhu Dalam Celcius"), //hint text
+                hintText: ("Masukkan Suhu Dalam Celcius (Decimal)"), //hint text
               ),
-              inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-              keyboardType: TextInputType.number,
-              controller: _controllerCelcius,
+              inputFormatters: <TextInputFormatter>[
+                FilteringTextInputFormatter.allow(RegExp(r'^\d+\.?\d{0,2}'))
+              ],
+              keyboardType:
+                  const TextInputType.numberWithOptions(decimal: true),
+              controller: _sliderController,
+              // readOnly: true,
             ),
             DropdownSuhu(
                 jenisSuhu: jenisSuhu,
                 selectedSuhu: selectedSuhu,
-                setSelectedSuhu: setSelectedSuhu),
+                setSelectedSuhu: setSelectedSuhu,
+                konversi: konverterSuhu),
             ResultKonversi(
               result: _result,
             ),
-            ButtonKonversi(
-              konversi : konverterSuhu
-            ),
+            ButtonKonversi(konversi: konverterSuhu),
             const Text(
               "Riwayat Konversi",
               style: TextStyle(fontSize: 20),
