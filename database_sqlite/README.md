@@ -26,6 +26,8 @@
     Tampilan Ketiga
     <td><img src="https://user-images.githubusercontent.com/95725937/205674615-39f65ee8-af0c-4239-8e3c-a73b84269a64.png" width=70% height=70%></td>
     </td>
+    </tr>
+    <tr align="center">
     Tampilan Keempat
     <td><img src="https://user-images.githubusercontent.com/95725937/205674617-ac9b6767-dc19-4a4b-b09b-d16d76fdc071.png" width=70% height=70%></td>
     </td>
