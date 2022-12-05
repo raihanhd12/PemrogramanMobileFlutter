@@ -1,16 +1,32 @@
-# belanja
+### **Nama**      : Raihan Hidayatullah Djunaedi
+### **Kelas**     : TI -3A
+### **NIM**       : 2041720108
+### **No Absen**  : 24
+# 
 
-A new Flutter project.
+# Screenshot App
 
-## Getting Started
+<table>
+  <tr align="center">
+    <td>
+    Tampilan Pertama
+    <td> <img src="https://user-images.githubusercontent.com/95725937/205673176-733fd73a-4bce-4320-bb7b-3370165bdfb2.png" width=70% height=70%></td>
+    </td>
+    </tr>
+    <tr align="center">
+    <td>    
+    Tampilan Kedua
+    <td><img src="https://user-images.githubusercontent.com/95725937/205673186-bbf7efc2-f33b-44f7-ae5b-963668a766d2.png" width=70% height=70%></td>
+    </td>
+    </tr>
+    <tr align="center">
+    <td>
+    Tampilan Ketiga
+    <td><img src="https://user-images.githubusercontent.com/95725937/205673190-26afe3e7-7217-4b0f-b8dd-3a849acd33fa.png" width=70% height=70%></td>
+    </td>
+    </tr>
+    <tr align="center">
+    <td>
+  </tr>
+ </table>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
