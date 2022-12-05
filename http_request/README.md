@@ -1,16 +1,26 @@
 # http_request
 
-A new Flutter project.
+### **Nama**      : Raihan Hidayatullah Djunaedi
+### **Kelas**     : TI -3A
+### **NIM**       : 2041720108
+### **No Absen**  : 24
+# 
 
-## Getting Started
+# Screenshot App
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr align="center">
+    <td>
+    Tampilan Pertama
+    <td> <img src="https://user-images.githubusercontent.com/95725937/205676363-341e5273-0c61-4634-90a9-dd331c9da59b.png" width=70% height=70%></td>
+    </td>
+    </tr>
+    <tr align="center">
+    <td>    
+    Tampilan Kedua
+    <td><img src="https://user-images.githubusercontent.com/95725937/205676368-ed1ccbc2-bd24-4c84-9ee3-425b069fd15b.png" width=70% height=70%></td>
+    </td>
+    </tr>
+    <tr align="center">
+  </tr>
+ </table>
