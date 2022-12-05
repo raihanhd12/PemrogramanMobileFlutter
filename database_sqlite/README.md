@@ -12,7 +12,7 @@
   <tr align="center">
     <td>
     Tampilan Pertama
-    <td> <img src="(https://user-images.githubusercontent.com/95725937/205674606-37e2c424-8bb2-43ee-865f-a4aecb7f9b6b.png" width=70% height=70%></td>
+    <td> <img src="https://user-images.githubusercontent.com/95725937/205674606-37e2c424-8bb2-43ee-865f-a4aecb7f9b6b.png" width=70% height=70%></td>
     </td>
     </tr>
     <tr align="center">
@@ -28,12 +28,12 @@
     </td>
     </tr>
     <tr align="center">
+    <td>
     Tampilan Keempat
     <td><img src="https://user-images.githubusercontent.com/95725937/205674617-ac9b6767-dc19-4a4b-b09b-d16d76fdc071.png" width=70% height=70%></td>
     </td>
     </tr>
     <tr align="center">
-    <td>
   </tr>
  </table>
 
