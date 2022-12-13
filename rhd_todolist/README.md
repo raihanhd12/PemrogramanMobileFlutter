@@ -8,6 +8,8 @@
 ### **No Absen**  : 24
 # 
 
+### File PDF tentang aplikasi bisa di download di bawah ini 
+#### https://github.com/raihanhd12/PemrogramanMobileFlutter/files/10217736/ff1b6b25-d35f-42b6-86b2-c182262077f2.pdf
 # Screenshot App
 
 <table>
@@ -60,7 +62,6 @@
     </td>
     </tr>
     <tr align="center">
-    <td>
   </tr>
  </table>
 
